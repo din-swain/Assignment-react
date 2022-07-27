@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #101317;
+  color: #ffffff;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+img{
+  cursor: pointer;
+}
+.container {
+  height: 501px;
+  width: 950px;
+  border-radius: 16px;
+  margin: 0px auto;
+}
+
+.heading {
+  width: 557px;
+  display: flex;
+  margin-left: 217px;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.heading li span {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.item {
+  height: 80px;
+  width: 920px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: #1E262F;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.userDetails {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.userDetails .photo {
+  width: 25%;
+  margin: auto 0px;
+}
+
+.userDetails .userInfo {
+  width: 75%;
+  margin: auto 0px;
+}
+
+.userDetails .userInfo .name {
+  font-size: 14px;
+  text-align: start;
+  font-weight: 500;
+}
+
+.userDetails .userInfo .email {
+  font-size: 10px;
+  text-align: start;
+  font-weight: 500;
+}
+
+.information {
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.information .steps {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.information .steps .left {
+  height: 60px;
+  width: 60px;
+  margin: auto 0px;
+}
+
+.information .steps .right {
+  margin: auto 0;
+}
+
+.information .steps .right .text1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.information .steps .right .text2 {
+  font-size: 10px;
+  color: #BDBCBE;
+  font-weight: 500;
+
+}
+
+.information .workout {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.information .workout .left {
+  margin: auto 0;
+}
+
+.information .workout .left .top {
+  margin-top: -5px;
+}
+
+.information .workout .left .bottom {
+  margin-top: 5px;
+}
+
+.information .workout .left span {
+  font-size: 14px;
+  margin-left: 5px;
+  font-weight: 600;
+
+}
+
+.information .workout .right {
+  margin: auto 0;
+}
+
+.information .workout .right img {
+  height: 60px;
+  width: 30px;
+}
+
+.information .nutrition {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.information .nutrition .left {
+  height: 56.96px;
+  width: 56.96px;
+  margin: auto 0;
+  position: relative;
+}
+
+.information .nutrition .left .leftMiddle {
+  position: absolute;
+  top: 15px;
+  left:15px;
+}
+
+.information .nutrition .left .leftMiddle .text1 {
+  font-size: 12px;
+  font-weight: 700;
+
+}
+
+.information .nutrition .left .leftMiddle .text2 {
+  font-size: 8px;
+  font-weight: 500;
+
+}
+
+.information .nutrition .middle {
+  margin: auto 0;
+}
+
+.information .nutrition .middle .text1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.information .nutrition .middle .text2 {
+  font-weight: 500;
+  font-size: 10px;
+  color: #BDBCBE;
+}
+
+.information .nutrition .right {
+  margin: auto 0;
+}
+
+.bellIcon {
+  width: 10%;
+  margin: auto 0;
+}
